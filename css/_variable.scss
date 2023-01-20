@@ -1,0 +1,62 @@
+// font-family: 'Lato', sans-serif;
+// font-family: 'Noto Serif Bengali', serif;
+// font-family: 'Boshonto', sans-serif;
+
+%main-logo-linear {
+    background: rgb(2, 0, 36);
+    background: -moz-linear-gradient(360deg, rgba(2, 0, 36, 1) 22%, #2a00ff 100%);
+    background: -webkit-linear-gradient(360deg, rgba(2, 0, 36, 1) 22%, rgba(42, 0, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 22%, rgba(42, 0, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#2a00ff", GradientType=1);
+}
+%main-nav-linear {
+    background-color: #2a00ff;
+    background-image:
+      linear-gradient(
+        #2b099be7, #2a00ff
+      );
+    
+    
+}
+
+%repeated-item {
+    font-size: 18px;
+    color: #fff;
+    padding: 0.3rem;
+}
+%category-title{
+    background: rgb(120, 6, 119);
+    background: -moz-linear-gradient(90deg, #780677fb 9%, rgba(173, 11, 194, 1) 50%, rgba(61, 6, 120, 1) 99%);
+    background: -webkit-linear-gradient(90deg, rgba(120, 6, 119, 0.9837184873949579) 9%, rgba(173, 11, 194, 1) 50%, rgba(61, 6, 120, 1) 99%);
+    background: linear-gradient(90deg, rgba(120, 6, 119, 0.9837184873949579) 9%, rgba(173, 11, 194, 1) 50%, rgba(61, 6, 120, 1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780677", endColorstr="#3d0678", GradientType=1);
+    color: #fff;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+%footer-title{
+    background: rgb(120, 6, 119);
+    background: -moz-linear-gradient(90deg, #780676a7 9%, rgba(173, 11, 194, 0.415) 50%, rgba(61, 6, 120, 1) 99%);
+    background: -webkit-linear-gradient(90deg, rgba(120, 6, 118, 0.173) 9%, rgba(173, 11, 194, 0.43) 50%, rgba(61, 6, 120, 1) 99%);
+    background: linear-gradient(90deg, rgb(120 6 118 / 35%) 9%, rgb(11 194 47) 50%, rgb(120 6 73 / 32%) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780677", endColorstr="#3d0678", GradientType=1);
+    color: #fff;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 30px 5px 30px 5px;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Noto Serif Bengali', 'Lato', 'sans-serif';
+    color: #333;
+}
+
+p {
+    font-size: 16px; 
+}
+a{
+    text-decoration: none;
+}

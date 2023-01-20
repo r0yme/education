@@ -1,0 +1,29 @@
+header {
+    .main-logo {
+        @extend %main-logo-linear;
+        padding: 30px;
+
+        .logo-inner {
+
+            a {
+                text-decoration: none;
+                color: #fff;
+
+                h1.school-name {
+                    font-family: 'Boshonto', sans-serif;
+                    font-size: 55px;
+                }
+
+                h2 {
+                    font-size: 39px;
+                    color: #e3e0e0;
+                }
+
+                h3 {
+                    font-size: 31px;
+                    color: #e3e0e0;
+                }
+            }
+        }
+    }
+}

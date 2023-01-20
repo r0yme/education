@@ -1,0 +1,55 @@
+.person-identity-info-section{
+    h1{
+        @extend %category-title;
+        }
+    .card{
+        padding: 0;
+        overflow: hidden;
+        width: 18rem;
+        border: 1px solid #ae00ff;
+        margin: 5px;
+        .info-inner{
+            .person-img{
+                overflow: hidden;
+                
+            img{
+                width: 300px;
+                height: 350px;
+                object-fit: cover;
+            }
+            .img-effect{
+                transition-duration: 0.3s;
+                transform: scale(1);
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            }
+            .card-body{
+                text-align: center;
+                background-color: #efebeb;
+                padding: 0;
+                .person-name{
+                    a{
+                        color: #333;
+                        font-size: 20px;
+                        border-bottom: 1px solid #999797;
+                        padding-top: 5px;
+                        display: inline-block;
+                        &:hover{
+                            color: #ae00ff;
+                        }
+                    }
+                }
+                span.card-text{
+                    margin-top: 5px;
+                    display: inline-block;
+                    color: #7c7c7c;
+                }
+            }
+        }
+    }
+    .pagination{
+        margin: 20px 0;
+    }
+}
